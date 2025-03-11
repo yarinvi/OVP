@@ -199,6 +199,7 @@ export const Form = ({
       />
 
       <table className="form-table">
+        <div className="table-container">
         <thead>
           <tr>
             <th>Title</th>
@@ -243,6 +244,7 @@ export const Form = ({
             <h1 className="not-found">Not found for "{inputSearch}"</h1>
           )}
         </tbody>
+        </div>
       </table>
     </main>
   );
